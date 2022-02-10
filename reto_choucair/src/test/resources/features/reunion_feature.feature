@@ -17,6 +17,6 @@ Feature: Yo como usuario quiero crear una nueva Business Unit y crear una reunio
     And el usuario crea la reunion con los datos
       | meetingName      | meetingType | meetingNumber | startDate  | endDate    | startTime | endTime | location | unit          | organizedBy | reporter     | attendeeList    |
       | REUNION CHOUCAIR | Customer    | 5217570       | 02/12/2022 | 02/12/2022 | 02:00     | 03:00   | On Site  | Reto_Choucair | Eric Butler | Alexis Lopez | Brandon Coleman |
-    Then el usuario vera la business unit
+    Then el usuario vera la reunion
 
 

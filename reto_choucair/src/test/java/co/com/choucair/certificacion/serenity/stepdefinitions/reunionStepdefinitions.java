@@ -58,15 +58,12 @@ public class reunionStepdefinitions {
                 CrearReunion.crearReunion(infoReunion), ConsultarReunion.consultarReunion(infoReunion)
         );
     }
-
-    @Then("^el usuario vera la business unit$")
-    public void elUsuarioVeraLaBusinessUnit() {
+    @Then("^el usuario vera la reunion$")
+    public void elUsuarioVeraLaReunion() {
 
         OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(
                 ValidarCreacionReunion.validarCreacionReunion(), Matchers.is(true)
         ));
+
     }
-
-
-
 }
