@@ -1,5 +1,7 @@
 # retoChoucair
-Desarrollo de la solucion del reto de automatizacion choucair
+Desarrollo de la solucion del reto de automatizacion choucair,
+La evidencia viva generada por medio de serenity se encuentra en la carpeta TARGET dentro del proyecto y en ella hay una carpeta site, dentro de 
+esta carpeta debera buscar un archivo index.html y ejecutarlo o dar doble click y lo redirijira a una pagina local con la evidencia.
 
 ## Tabla de contenido
 1. [Informacion general]
